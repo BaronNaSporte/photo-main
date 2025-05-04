@@ -57,7 +57,8 @@ class ReviewResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('user')
+                Tables\Columns\TextColumn::make('user
+                ')
                     ->label('Автор')
                     ->searchable()
                     ->sortable(),
